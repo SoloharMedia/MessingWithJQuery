@@ -1,0 +1,1161 @@
+body
+{
+    width:90%;
+    margin:0 auto;
+    background:#CCC;
+}
+header
+{
+    height:300px;
+    width:1200px;
+    margin:0 auto 50px auto;
+    background-size:cover;
+    position:relative;
+    overflow:hidden;
+    border:1px solid #111;
+}
+    #headerHorSlider
+    {
+        margin-left:400px;
+        height:300px;
+        width:2400px;
+        text-align:center;
+        color:#CCC;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight:bold;
+        background:linear-gradient(to right, #777, #253856);
+        padding-top:70px;
+    }
+        #headerHorSlider hr
+        {
+            width:60%;
+            margin:0 auto;
+        }
+    #header1
+    {
+        height:300px;
+        width:800px;
+        float:left;
+    }
+    #header2
+    {
+        height:300px;
+        width:800px;
+        float:left;
+    }
+    #header3
+    {
+        height:300px;
+        width:800px;
+        float:left;
+    }
+    #headerVertSlider
+    {
+        width:400px;
+        height:900px;
+        position:absolute;
+        bottom:0;
+        left:0;
+    }
+        #headerUp1
+        {
+            height:300px;
+            width:400px;
+            background:url(../Images/leftHeader1.jpg);
+            background-size:cover;
+            margin:0;
+            padding:0;
+        }
+        #headerUp2
+        {
+            height:300px;
+            width:400px;
+            background:url(../Images/leftHeader2.jpg);
+            background-size:cover;
+            margin:0;
+            padding:0;
+        }
+        #headerUp3
+        {
+            height:300px;
+            width:400px;
+            background:url(../Images/leftHeader3.jpg);
+            background-size:cover;
+            margin:0;
+            padding:0;
+        }
+main
+{
+    height:auto;
+    width:100%;
+}
+    #port1
+    {
+        margin:0;
+        padding:0;
+        min-height:400px;
+        max-height:400px;
+        width:calc(30% - 30px);
+        position:relative;
+        float:left;
+        background:#333;
+        border-top:20px solid #888;
+        border-left:20px solid #888;
+        border-right:10px solid #888;
+        border-bottom:10px solid #888;
+        overflow:hidden;
+        text-align:center;
+    }
+        #port1 p
+        {
+            transform:skew(-20deg,-10deg);
+        }
+    #port2
+    {
+        height:400px;
+        width:calc(70% - 30px);
+        float:left;
+        position:relative;
+        background:url(../Images/backgroundPort2.jpg);
+        background-size:cover;
+        border-top:20px solid #888;
+        border-right:20px solid #888;
+        border-left:10px solid #888;
+        border-bottom:10px solid #888;
+    }
+        #topOfBlinds
+        {
+            height:15px;
+            width:180px;
+            background:#CCC;
+            border:1px solid #000;
+            position:absolute;
+            right:-10px;
+            top:-15px;
+        }
+            #stringBlinds
+            {
+                height:120px;
+                width:10px;
+                border:3px dotted #333;
+                position:absolute;
+                top:15px;
+                border-top-right-radius:50%;
+                border-top-left-radius:50%;
+                border-bottom-left-radius:10px;
+                border-bottom-right-radius:10px;
+            }
+        #blindsContainer
+        {
+            height:120px;
+            width:150px;
+            position:absolute;
+            right:20px;
+            top:140px;
+            z-index:10;
+        }
+            .blinds
+            {
+                height:10px;
+                width:150px;
+                background:#CCC;
+                border:1px solid #000;
+                transition:.5s transform;
+            }
+        #windowContainer
+        {
+            height:130px;
+            width:150px;
+            position:absolute;
+            right:20px;
+            top:140px;
+        }
+            #window
+            {
+                height:120px;
+                width:130px;
+                background:#82c9f2;
+                border:1px solid #000;
+                margin:0 auto;
+                overflow:hidden;
+            }
+                #sun
+                {
+                    height:50px;
+                    width:50px;
+                    background:#f4d018;
+                    float:left;
+                    border-radius:100%;
+                }
+                #moon
+                {
+                    height:50px;
+                    width:50px;
+                    border-radius:100%;
+                    background:#d6cdf7;
+                    float:right;
+                }
+            #windowsill
+            {
+                height:10px;
+                width:150px;
+                background:brown;
+                border:1px solid #000;
+            }
+        #calendarContainer
+        {
+            height:140px;
+            width:105px;
+            position:absolute;
+            top:130px;
+            left:10px;
+            margin:0;
+            padding:0;
+        }
+            #calendarHook
+            {
+                height:20px;
+                width:20px;
+                margin:0 auto;
+                border-top-left-radius:50%;
+                border-top-right-radius:50%;
+                border-top:2px solid #CCC;
+                border-right:2px solid #CCC;
+                border-left:2px solid #CCC;
+                padding:0;
+            }
+            #monthContainer
+            {
+                height:20px;
+                width:105px;
+                background:#4c3515;
+                text-align:center;
+                margin:0;
+                padding:0;
+                border:1px solid #222;
+            }
+                #month
+                {
+                    color:#CCC;
+                    font-size:0.2;
+                    margin:0;
+                    padding:0;
+                }
+            #yearContainer
+            {
+                height:18px;
+                width:105px;
+                background:#4c3515;
+                text-align:center;
+                margin:0;
+                padding:0;
+                border:1px solid #222;
+            }
+                #year
+                {
+                    color:#CCC;
+                    font-size:0.3;
+                    margin:2px 0 0 0;
+                    padding:0;
+                }
+                .date
+                {
+                    height:13px;
+                    width:13px;
+                    border:1px solid #000;
+                    float:left;
+                    padding:0;
+                    margin:0;
+                }
+                #hook
+                {
+                    height:5px;
+                    width:5px;
+                    background:#111;
+                    border-radius:100%;
+                    margin:0 auto;
+                }
+            #calendar
+            {
+                height:75px;
+                width:105px;
+                background:#CCC;
+                border:1px solid #222;
+                text-align:center;
+                margin:0;
+                padding:0;
+            }
+                #calendar p
+                {
+                    font-size:0.7em;
+                    margin:0;
+                    font-weight:bold;
+                }
+            #calendarTray
+            {
+                height:15px;
+                width:105px;
+                background:#4c3515;
+                border:1px solid #222;
+                margin:0;
+                padding:0;
+                text-align:center;
+            }
+                #calendarTray h3
+                {
+                    color:#CCC;
+                    font-size:0.7em;
+                    margin:0;
+                }
+        #waterClockContainer
+        {
+            height:390px;
+            width:500px;
+            margin:10px auto 0 auto;
+        }
+            #aboveTank
+            {
+                height:100px;
+                width:100%;
+                position:relative;
+            }
+                #leftWall
+                {
+                    height:80px;
+                    width:20px;
+                    background:linear-gradient(to left, #222, #CCC);
+                    display:inline-block;
+                    position:absolute;
+                    left:0;
+                }
+                #waterInUpperTank
+                {
+                    height:80px;
+                    width:460px;
+                    margin-left:20px;
+                    background:url(../Images/fishBackground.jpg);
+                    background-size:cover;
+                    background-repeat:no-repeat;
+                    float:left;
+                }
+                #actualWaterInUpperTank
+                {
+                    height:80px;
+                    width:460px;
+                    background:#429ef4;
+                    opacity:.5;
+                    position:absolute;
+                    z-index:30;
+                    top:0;
+                }
+                    #fish
+                    {
+                        height:40px;
+                        width:80px;
+                        position:relative;
+                        margin:0 auto;
+                        transition: transform 1s;
+                    }
+                        #fishBody
+                        {
+                            height:25px;
+                            width:50px;
+                            background:darkorange;
+                            border-top-left-radius:100%;
+                            border-bottom-left-radius:100%;
+                            border-top-right-radius:100%;
+                            border-bottom-right-radius:100%;
+                            margin:0 auto;
+                        }
+                        #fishTopFin
+                        {
+                            height:15px;
+                            width:15px;
+                            background:darkorange;
+                            margin:0 auto;
+                            border-top-left-radius:100%;
+                        }
+                        #fishBackFin
+                        {
+                            height:20px;
+                            width:15px;
+                            background:darkorange;
+                            position:absolute;
+                            right:0;
+                            bottom:3px;
+                            border-top-left-radius:50px 100%;
+                            border-bottom-left-radius:50px 100%;
+                        }
+                #rightWall
+                {
+                    height:80px;
+                    width:20px;
+                    background:linear-gradient(to right, #222, #CCC);
+                    display:inline-block;
+                    position:absolute;
+                    right:0;
+                }
+                #aboveTankTop
+                {
+                    height:80px;
+                    width:100%;
+                }
+                #aboveTankBottom
+                {
+                    height:20px;
+                    width:100%;
+                    background:linear-gradient(to top,#222, #CCC);
+                    border-bottom-left-radius:10px;
+                    border-bottom-right-radius:10px;
+                }
+            #tankContainer
+            {
+                height:230px;
+                width:400px;
+                margin:0 auto;
+            }
+                .waterTanksOutter
+                {
+                    height:230px;
+                    width:100px;
+                    display:inline-block;
+                    margin-left:20px;
+                    position:relative;
+                }
+                #tank1Inner
+                {
+                    height:180px;
+                    width:100px;
+                    margin-top:50px;
+                    background:linear-gradient(to left,rgba(34, 35, 35, .3),rgba(202, 205, 209, .3) 80%);
+                }
+                    #waterInTank1
+                    {
+                        height:0;
+                        width:100px;
+                        position:absolute;
+                        bottom:0;
+                        background:#13366d
+                    }
+                        #dropper1
+                        {
+                            height:10px;
+                            width:10px;
+                            margin:0 auto;
+                        }
+                #tank2Inner
+                {
+                    height:180px;
+                    width:100px;
+                    margin-top:50px;
+                    background:linear-gradient(to left,rgba(34, 35, 35, .3),rgba(202, 205, 209, .3) 80%);
+                }
+                    #waterInTank2
+                    {
+                        height:0;
+                        width:100px;
+                        position:absolute;
+                        bottom:0;
+                        background:#13366d;
+                    }
+                        #dropper2
+                        {
+                            height:10px;
+                            width:10px;
+                            margin:0 auto;
+                        }
+                #tank3Inner
+                {
+                    height:180px;
+                    width:100px;
+                    margin-top:50px;
+                    background:linear-gradient(to left,rgba(34, 35, 35, .3),rgba(202, 205, 209, .3) 80%);
+                }
+                    #waterInTank3
+                    {
+                        height:0;
+                        width:100px;
+                        position:absolute;
+                        bottom:0;
+                        background:#13366d;
+                    }
+                #dropper3
+                {
+                    height:10px;
+                    width:10px;
+                    margin:0 auto;
+                }
+            #ground
+            {
+                height:50px;
+                width:80%;
+                margin:0 auto 0 40px;
+                background:#111;
+                border-top-left-radius:10px;
+                border-top-right-radius:10px;
+                border:5px groove #CCC;
+                padding:0;
+            }
+                .clockDisplay
+                {
+                    height:40px;
+                    width:80px;
+                    background:#333;
+                    float:left;
+                    border-radius:10px;
+                    border:1px groove #CCC;
+                    margin:4px 0 0 18px;
+                    padding:0;
+                    color:#CCC;
+                    text-align:center;
+                    font-weight:bold;
+                }
+                    #txtSeconds
+                    {
+                        margin:0;
+                    }
+                    #txtMinutes
+                    {
+                        margin:0;
+                    }
+                    #txtHours
+                    {
+                        margin:0;
+                    }
+                #semiBallsMinutes
+                {
+                    transition:1s transform;
+                }
+                #semiBallsHours
+                {
+                    transition:1s transform;
+                }
+                .semicolonClock
+                {
+                    height:30px;
+                    width:20px;
+                    background:#333;
+                    float:left;
+                    border-radius:10px;
+                    border:1px groove #CCC;
+                    margin:9px 0 0 18px;
+                    transition:1s transform;
+                }
+                    .semiBalls
+                    {
+                        height:8px;
+                        width:8px;
+                        border-radius:100%;
+                        background:#CCC;
+                        margin:5px auto 0 auto;
+                    }
+    #port3
+    {
+        height:400px;
+        width:calc(100% - 40px);
+        background:#333;
+        float:left;
+        border-top:10px solid #888;
+        border-right:20px solid #888;
+        border-left:20px solid #888;
+        border-bottom:10px solid #888;
+    }
+            #folderContainer
+            {
+                height:100%;
+                width:100%;
+            }
+                #leftFolder
+                {
+                    height:100%;
+                    width:80%;
+                    float:left;
+                    background:#5b0e84;
+                }
+                    .computerWhole
+                    {
+                        display:block;
+                    }
+                    #computer
+                    {
+                        height:250px;
+                        width:450px;
+                        background:url(../Images/screenshot2.png);
+                        background-size:contain;
+                        margin:30px auto 0 auto;
+                        border-radius:10px;
+                        border:4px solid #161719;
+                    }
+                    #computerStandTop
+                    {
+                        height:20px;
+                        width:40px;
+                        background:#161719;
+                        margin:0 auto;
+                    }
+                    #computerStandBottom
+                    {
+                        height:30px;
+                        width:300px;
+                        background:#161719;
+                        margin:0 auto;
+                        border-top-left-radius:100%;
+                        border-top-right-radius:100%;
+                    }
+                #midFolder
+                {
+                    height:100%;
+                    width:10%;
+                    float:left;
+                    background:#882cba;
+                    position:relative;
+                }
+                    #screenshotCover
+                    {
+                        height:100%;
+                        width:100%;
+                        position:absolute;
+                        background:rgba(0,0,0,0.7);
+                        visibility:collapse;
+                    }
+                        #chosenScreenshot
+                        {
+                            height:80%;
+                            width:70%;
+                            border-radius:10px;
+                            border:2px solid #0F0;
+                            display:block;
+                            margin:20px auto 0 auto;
+                        }
+                        #screenshotCover button
+                        {
+                            height:30px;
+                            width:100px;
+                            text-align:center;
+                            display:block;
+                            background:#20a020;
+                            color:#FFF;
+                            border:1px solid #a8eaa8;
+                            margin:5px auto 0 auto;
+                            border-radius:5px;
+                            font-weight:bold;
+                        }
+                    .screenshotImages
+                    {
+                        height:100px;
+                        width:100px;
+                        margin:5px;
+                        border:2px solid #0f3810;
+                        border-radius:5px;
+                        transition:border 2s;
+                        display:none;
+                    }
+                    #midFolder img:hover
+                    {
+                        border:2px solid #4df950;
+                    }
+                #rightFolder
+                {
+                    height:100%;
+                    width:10%;
+                    float:left;
+                    background:#c782ed;
+                }
+    #port4
+    {
+        height:400px;
+        width:calc(100% - 40px);
+        background:#333;
+        float:left;
+        border-top:10px solid #888;
+        border-right:20px solid #888;
+        border-left:20px solid #888;
+        border-bottom:10px solid #888;
+        position:relative;
+    }
+        #portPicture
+        {
+            height:250px;
+            width:250px;
+            border-radius:100%;
+            display:block;
+            border:6px groove #CCC;
+            margin:10px auto 0 auto;
+            transition:transform 5s;
+            position:absolute;
+            left:calc(50% - 150px);
+            top:10px;
+            z-index:15;
+        }
+        #iconMaker
+        {
+            height:100px;
+            width:100px;
+            display:block;
+            background:white;
+            position:absolute;
+            z-index:10;
+            top:100px;
+            left:calc(50% - 75px);
+        }
+        #icon1
+        {
+            background:url(../Images/facebookIcon.png);
+            background-size:cover;
+            transition:transform 2s;
+        }
+            #icon1:hover
+            {
+                transform:rotateY(360deg);
+            }
+        #icon2
+        {
+            background:url(../Images/linkdinIcon.png);
+            background-size:cover;
+            transition:transform 2s;
+        }
+            #icon2:hover
+            {
+                transform:rotateY(360deg);
+            }
+        #icon3
+        {
+            background:url(../Images/twitterIcon.png);
+            background-size:cover;
+            transition:transform 2s;
+        }
+        #icon3:hover
+            {
+                transform:rotateY(360deg);
+            }
+        #icon4
+        {
+            background:url(../Images/githubIcon.png);
+            background-size:cover;
+            transition:transform 2s;
+        }
+            #icon4:hover
+            {
+                transform:rotateY(360deg);
+            }
+        #icon5
+        {
+            background:url(../Images/codepenIcon.png);
+            background-size:cover;
+            transition:transform 2s;
+        }
+            #icon5:hover
+            {
+                transform:rotateY(360deg);
+            }
+        #icon6
+        {
+            background:url(../Images/mailIcon.png);
+            background-size:cover;
+            transition:transform 2s;
+        }
+            #icon6:hover
+            {
+                transform:rotateY(360deg);
+            }
+        #icon7
+        {
+            background:url(../Images/phoneIcon.png);
+            background-size:cover;
+            transition:transform 2s;
+        }
+            #icon7:hover
+            {
+                transform:rotateY(360deg);
+            }
+        #icon8
+        {
+            background:url(../Images/gpsIcon.png);
+            background-size:cover;
+            transition:transform 2s;
+        }
+            #icon8:hover
+            {
+                transform:rotateY(360deg);
+            }
+    #contactViewBoxContent
+    {
+        color:#CCC;
+        font-size:1.2em;
+    }
+    #port5
+    {
+        height:400px;
+        width:calc(100% - 40px);
+        background:#333;
+        float:left;
+        border-top:10px solid #888;
+        border-right:20px solid #888;
+        border-left:20px solid #888;
+        border-bottom:10px solid #888;
+        position:relative;
+        color:#FFF;
+        text-shadow:0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff,
+         0 0 40px #42f448, 0 0 70px #42f448, 0 0 80px #42f448, 0 0 100px #42f448, 
+         0 0 150px #42f448;
+        font-size:2em;
+        overflow:hidden;
+    }
+        #replaceLetterG
+        {
+            height:300px;
+            width:60px;
+            background:#666;
+            position:absolute;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            top:-300px;
+            left:345px;
+            z-index:40;
+        }
+        #replaceLetterA
+        {
+            height:300px;
+            width:60px;
+            background:#666;
+            position:absolute;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            top:-300px;
+            left:405px;
+            z-index:40;
+        }
+        #replaceLetterM
+        {
+            height:300px;
+            width:70px;
+            background:#666;
+            position:absolute;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            top:-300px;
+            left:465px;
+            z-index:40;
+        }
+        #replaceLetterE
+        {
+            height:300px;
+            width:60px;
+            background:#666;
+            position:absolute;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            top:-300px;
+            left:535px;
+            z-index:40;
+        }
+        #replaceLetterO
+        {
+            height:300px;
+            width:65px;
+            background:#666;
+            position:absolute;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            top:-300px;
+            left:595px;
+            z-index:40;
+        }
+        #replaceLetterV
+        {
+            height:300px;
+            width:60px;
+            background:#666;
+            position:absolute;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            top:-300px;
+            left:660px;
+            z-index:40;
+        }
+        #replaceSecondLetterE
+        {
+            height:300px;
+            width:60px;
+            background:#666;
+            position:absolute;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            top:-300px;
+            left:720px;
+            z-index:40;
+        }
+        #replaceLetterR
+        {
+            height:300px;
+            width:60px;
+            background:#666;
+            position:absolute;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            top:-300px;
+            left:780px;
+            z-index:40;
+        }
+        #resetLetters
+        {
+            height:50px;
+            width:150px;
+            border-radius:10px;
+            border:3px solid #CCC;
+            background:#98f785;
+            color:#222;
+            font-weight:bold;
+            font-size:18px;
+        }
+        .letters
+        {
+            display:inline-block;
+            letter-spacing:3px;
+            transition:.5s transform;
+            transition-timing-function:ease-in;
+            position:absolute;
+        }
+            #letterG
+            {
+                top:140px;
+                left:350px;
+            }
+            #letterA
+            {
+                top:140px;
+                left:410px;
+            }
+            #letterM
+            {
+                top:140px;
+                left:470px;
+            }
+            #letterE
+            {
+                top:140px;
+                left:540px;
+            }
+            #letterO
+            {
+                top:140px;
+                left:600px;
+            }
+            #letterV
+            {
+                top:140px;
+                left:660px;
+            }
+            #secondLetterE
+            {
+                top:140px;
+                left:720px;
+            }
+            #letterR
+            {
+                top:140px;
+                left:780px;
+            }
+        #football
+        {
+            height:50px;
+            width:80px;
+            border-radius:50%;
+            background:brown;
+            position:absolute;
+            z-index:15;
+            top:320px;
+            left:-100px;
+            transition:2s transform;
+        }
+            #footballGrip
+            {
+                height:10px;
+                width:30px;
+                margin:0 auto;
+                margin-top:0;
+                position:relative;
+            }
+                #horizontalGrip
+                {
+                    width:30px;
+                    height:3px;
+                    background:white;
+                    position:absolute;
+                    top:3px;
+                }
+                #grip1
+                {
+                    height:10px;
+                    width:3px;
+                    background:white;
+                    position:absolute;
+                    z-index:20;
+                    left:2px;
+                }
+                #grip2
+                {
+                    height:10px;
+                    width:3px;
+                    background:white;
+                    position:absolute;
+                    z-index:20;
+                    left:10px;
+                }
+                #grip3
+                {
+                    height:10px;
+                    width:3px;
+                    background:white;
+                    position:absolute;
+                    z-index:20;
+                    left:18px;
+                }
+                #grip4
+                {
+                    height:10px;
+                    width:3px;
+                    background:white;
+                    position:absolute;
+                    z-index:20;
+                    left:25px;
+                }
+    #port6
+    {
+        height:400px;
+        width:calc(100% - 40px);
+        background:#333;
+        float:left;
+        border-top:10px solid #888;
+        border-right:20px solid #888;
+        border-left:20px solid #888;
+        border-bottom:10px solid #888;
+        position:relative;
+        overflow:hidden;
+    }
+        #playerSection
+        {
+            height:100%;
+            width:33%;
+            float:left;
+        }
+            #player1Section
+            {
+                height:33%;
+                width:100%;
+            }
+                #player1Left
+                {
+                    height:100%;
+                    width:30%;
+                    float:left;
+                    background:#8dc63f;
+                }
+                    #player1IconImageContainer
+                    {
+                        height:95%;
+                        width:50%;
+                        margin:5px auto 0 auto;
+                    }
+                #player1Right
+                {
+                    height:100%;
+                    width:70%;
+                    background:#8dc63f;
+                    float:left;
+                }
+                    #player1RightTop
+                    {
+                        height:50%;
+                        width:100%;
+                    }
+                    #player1RightBot
+                    {
+                        height:50%;
+                        width:100%;
+                    }
+                    #player1NameBox
+                    {
+                        height:70%;
+                        width:95%;
+                        margin:2px auto 0 auto;
+                        background:#333;
+                        border-radius:5px;
+                    }
+                    #player1ScoreBox
+                    {
+                        height:90%;
+                        width:95%;
+                        margin:2px auto 0 auto;
+                        background:#333;
+                        border-radius:5px;
+                    }
+            #player2Section
+            {
+                height:33%;
+                width:100%;
+            }
+            #player3Section
+            {
+                height:33%;
+                width:100%;
+            }
+        .iconImage
+        {
+            height:100%;
+            width:100%;
+        }
+        #wheelSection
+        {
+            height:100%;
+            width:34%;
+            float:left;
+        }
+            #wheelTicker
+            {
+                height:25px;
+                width:10px;
+                background:white;
+                margin:50px auto 0 auto;
+                border-top-left-radius:10px;
+                border-top-right-radius:10px;
+                border-bottom-left-radius:100%;
+                border-bottom-right-radius:100%;
+            }
+            #wheel
+            {
+                height:300px;
+                width:300px;
+                margin: 0 auto;
+                background:gray;
+                border-radius:100%;
+            }
+                #wheel img
+                {
+                    height:300px;
+                    width:300px;
+                    border-radius:100%;
+                    box-shadow:5px 5px 5px #000;
+                    transition:4s transform;
+                }
+        #puzzleSection
+        {
+            height:100%;
+            width:33%;
+            background:blue;
+            float:left;
+        }
+
+        #port7
+    {
+        height:400px;
+        width:calc(100% - 40px);
+        background:#333;
+        float:left;
+        border-top:10px solid #888;
+        border-right:20px solid #888;
+        border-left:20px solid #888;
+        border-bottom:10px solid #888;
+        position:relative;
+        overflow:hidden;
+    }
